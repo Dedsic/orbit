@@ -1,0 +1,9 @@
+# DataDirectory datadir
+UseBridges 1
+
+# Socks4Proxy localhost:1080
+# Socks5Proxy localhost:1080
+# HTTPSProxy localhost:8080
+
+Bridge meek 0.0.2.0:3 97700DFE9F483596DDA6264C4D7DF7641E1E39CE url=https://meek.azureedge.net/ front=ajax.aspnetcdn.com
+ClientTransportPlugin meek exec ../meek-client/meek-client --log ../meek-client/meek-client.log
