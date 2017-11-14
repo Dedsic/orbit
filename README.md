@@ -1,12 +1,11 @@
 # 关于orbit
 本程序是将Tor-Browser-Bundle内置的firefox浏览器精简掉之后封装而成的代理工具. 其他程序可以通过socks端口将其作为数据前端(例如: Chrome+Switch Omega).  
-你可以在这里查看torproject的原始代码  
-[https://git.torproject.org]
+你可以在这里查看torproject的原始代码[https://git.torproject.org]
 
 # 使用
-Linux下需要先安装tor
-`apt install tor`
-使用bash进入到根目录以后，执行
+Linux下需要先安装tor  
+`apt install tor`  
+使用bash进入到根目录以后，执行  
 `tor -f /location/of/torrc`(用你计算机上具体的文件路径替代)
 
 # To do list
