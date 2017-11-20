@@ -8,7 +8,8 @@
 Linux下需要先安装tor  
 `apt install tor`  
 使用cmd/bash运行  
-`tor -f /location/of/torrc`(用你计算机上具体的tor配置文件路径替代)并等待连接进度达到100%  
+`tor -f /location/of/torrc`(用你计算机上具体的tor配置文件路径替代)  
+等待连接进度达到100%  
 成功连接tor以后在需要用的程序当中设置代理.默认为socks5:localhost:9050  
   
 注意: 默认的meet反射服务器由微软Azure提供,速度很慢甚至无法连接,且由于tor自身性质,orbit无法在相应速度等方面替代你的VPN或者ss服务.可以自行架设服务器以提高代理质量.  
